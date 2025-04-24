@@ -91,6 +91,11 @@ body{
 
 /* banner section is here  */
 
+.banner-main{
+    background: linear-gradient(to top, #CBD5E1, #FFFFFF);
+    margin-bottom: 64px;
+}
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -100,11 +105,13 @@ body{
     width: 800px;
     margin: 0 auto;
     
+    
 }
 
 .banner-button{
     display: flex;
     gap: 8px;
+    margin-bottom: 64px;
 }
 
 .banner button{
@@ -137,4 +144,199 @@ body{
     font-size:18px;
     color: #475569;
     margin-bottom: 48px;
+}
+
+.screen-image{
+    position: absolute;
+    left: 850px;
+    top: 160px;
+}
+
+.banner-image{
+    position: relative;
+    padding: 0 20px;
+}
+
+
+/* company logo section  */
+
+.compnay-main{
+    background-color: #F8FAFC;
+}
+
+.compnay-logo{
+    width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 32px;
+}
+
+
+/* feature section  */
+.feature-section button{
+    border-radius: 1234px;
+    padding: 6px 12px;
+    gap: 8px;
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 96px;
+}
+
+.feature-section h1{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size:36px;
+    line-height: 44px;
+    letter-spacing: -1.4px;
+    color: #1E293B;
+    margin-bottom: 24px;
+}
+
+.feature-section p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:20px;
+    color: #475569;
+    margin-bottom: 64px;
+}
+
+.feature-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    
+    
+}
+
+.card-container{
+    width: 1216px;
+    margin: 0 auto;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 96px;
+}
+
+.card{
+    text-align: center;
+    gap: 48px;
+    
+}
+
+.card-image img{
+    width: 55px;
+    height: 74px;
+    object-fit: contain;
+}
+
+.card-description h3{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:20px;
+    line-height: 28px;
+    color: #1E293B;
+    margin-bottom: 12px;
+}
+.card-description p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:16px;
+    color: #475569;
+}
+
+/* result section  */
+.result-section-main{
+    background-color: #F8FAFC;
+}
+
+.result-section{
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px
+   
+}
+
+.result-section button{
+    border-radius: 50%;
+    padding: 6px 12px;
+    gap: 8px;
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    border: none;
+    
+    
+}
+.result-section button img{
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+}
+
+.result-section h1{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size:36px;
+    line-height: 44px;
+    letter-spacing: -1.4px;
+    color: #1E293B;
+    margin-bottom: 20px;
+}
+
+.result-section p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:20px;
+    color: #475569;
+    margin-bottom: 64px;
+}
+
+.result-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.card-border{
+    border-left: 1px solid #CBD5E1;
+    
+}
+
+.result-card h1{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:60px;
+    line-height: 68px;
+    letter-spacing: -1.8px;
+    color: #4F46E5;
+    margin-bottom: 16px;
+    
+}
+
+.result-card p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:18px;
+    line-height: 24px;
+    color: #475569;
+    margin-bottom: 96px;
 }
