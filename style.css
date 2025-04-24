@@ -312,12 +312,13 @@ body{
 .result-card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    align-items: center;
+    align-items: stretch;;
     justify-content: center;
 }
 
 .card-border{
-    border-left: 1px solid #CBD5E1;
+    border-left: 2px solid #CBD5E1;
+    height: 108px;
     
 }
 
@@ -339,4 +340,95 @@ body{
     line-height: 24px;
     color: #475569;
     margin-bottom: 96px;
+}
+
+/* dashboard section  */
+.dashboard{
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.dashboard button{
+    border-radius: 1234px;
+    padding: 6px 12px;
+    gap: 8px;
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    border: none;
+    margin-bottom: 24px;
+    margin-top: 96px;
+}
+
+.dashboard h1{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size:36px;
+    line-height: 44px;
+    letter-spacing: -1.4px;
+    color: #1E293B;
+    margin-bottom: 20px;
+}
+
+.dashboard p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:20px;
+    line-height: 24px;
+    color: #475569;
+    margin-bottom: 64px;
+}
+
+.dashboard-desc{
+    width: 680px;
+}
+
+.dashboard-card-container{
+    display: flex;
+    height: 592px;
+}
+
+.dashboard-card{
+    width: 50%;
+    padding: 100px 30px;
+    
+}
+
+.border-left{
+    border-left: 3px solid #4F46E5;
+    padding-left: 24px;
+    border-radius: 2px;
+}
+.border-gray{
+    border-left: 3px solid #E0E7FF;
+    padding-left: 24px;
+    border-radius: 2px;
+}
+.dashboard-card h3{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:20px;
+    line-height: 28px;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.dashboard-card p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:16px;
+    color: #475569;
+    width: 468px;
+}
+
+.dashboard-image{
+    width: 50%;
+}
+
+.dashboard-image img{
+    width: full;
 }
