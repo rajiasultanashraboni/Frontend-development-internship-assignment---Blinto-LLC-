@@ -432,3 +432,106 @@ body{
 .dashboard-image img{
     width: full;
 }
+
+
+/* testimonial section  */
+
+.testimonial-main{
+    background-color: #F8FAFC;
+}
+
+.testimonial-section{
+    width: 1216px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-header button{
+    border-radius: 1234px;
+    padding: 6px 12px;
+    gap: 8px;
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    border: none;
+    margin-bottom: 24px;
+    margin-top: 96px;
+}
+
+.section-header h2{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size:36px;
+    line-height: 44px;
+    color: #1E293B;
+    margin-bottom: 24px;
+}
+
+.section-header p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:18px;
+    color: #475569;
+    margin-bottom: 64px;
+}
+
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px;
+    align-items: center;
+}
+
+.user-info{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-align: start;
+}
+
+
+.user-heading{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:16px;
+    line-height: 22px;
+    color: #1E293B;
+   
+    
+    
+}
+
+.user-para{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:16px;
+    line-height: 20px;
+    color: #475569;
+   
+}
+
+.testimonial-card{
+    text-align: start;
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
+    padding: 24px;
+    
+}
+.message{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size:18px;
+    color: #475569;
+    margin-bottom: 24px;
+}
+
+.stars{
+    color: orange;
+    margin-bottom: 24px;
+}
