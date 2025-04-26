@@ -1,0 +1,371 @@
+@media (max-width: 768px) {
+    .feature-container {
+        overflow: hidden;
+        max-height: 0;
+        flex-direction: column;
+        gap: 16px;
+        transition: max-height 0.5s ease-in-out, padding 0.3s ease;
+    }
+
+    .feature-container.active {
+        max-height: 500px; 
+        padding: 10px 0;
+    }
+
+    .button-container {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .header-container {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    /* banner scetion  */
+
+    .banner {
+        width: 100%;
+        padding: 0 10px;
+      }
+    
+      .banner h1 {
+        font-size: 36px;
+        line-height: 44px;
+      }
+    
+      .banner p {
+        font-size: 16px;
+      }
+    
+      .banner button {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+    
+      .screen-image {
+        left: 300px; 
+        top: 0px;
+        transform: scale(0.5); 
+      }
+    
+      .screen-image img, 
+      .banner-image img {
+        width: 100%;
+       
+      }
+
+      .bannerr{
+        width: 100%;
+      }
+    
+      /* company logo  */
+
+     
+        
+        .compnay-logo{
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-items: center;
+            column-gap: 10px;
+            row-gap: 5px;
+            
+        }
+
+        /* feature section is here  */
+
+        .feature-section {
+            width: 100%;
+            padding: 0 20px; 
+        }
+        .feature-section h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+        .feature-section p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .feature-section button {
+            font-size: 13px;
+            padding: 5px 10px;
+            margin-top: 64px;
+        }
+
+        .card-container {
+            grid-template-columns: repeat(1, 1fr); 
+            width: 90%;
+        }
+    
+        .feature-section h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .feature-section p {
+            font-size: 16px;
+        }
+
+        /* result section  */
+
+        .result-section{
+            width: 100%;
+            
+           
+        }
+
+        
+        .result-card-container{
+           
+            grid-template-columns: repeat(1,1fr);
+           
+        }
+
+        .result-card p {
+            margin-bottom: 24px; 
+        }
+        
+        .card-border{
+            border-left: none;
+            margin: 24px 0;
+            width: 100%;
+        }
+
+        .dashboard {
+            width: 90%;
+            
+        }
+    
+        .dashboard-card-container {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .dashboard-card, .dashboard-image {
+            width: 100%; 
+        }
+    
+        .dashboard-desc {
+            width: 100%;
+        }
+    
+        .dashboard-card p {
+            width: 100%;
+        }
+
+        .dashboard p{
+
+            margin-bottom: 0;
+        }
+    
+        .border-left,
+        .border-gray {
+            border-left: none;
+            border-top: 3px solid #CBD5E1;
+            padding-top: 24px;
+            margin-top: 24px;
+        }
+    
+        .dashboard-image img {
+            width: 100%;
+            height: auto;
+        }
+
+
+        /* testimonial section  */
+
+        .testimonial-section {
+            width: 100%;
+            padding: 0 16px;
+        }
+    
+        .testimonial-grid {
+            grid-template-columns: 1fr; 
+            gap: 24px;
+        }
+    
+        .section-header h2 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .section-header p {
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    
+        .message {
+            font-size: 16px;
+        }
+
+        /* our office section is here  */
+
+        .office-section {
+            width: 100%;
+            padding: 0 16px;
+        }
+    
+        .office-grid {
+            grid-template-columns: 1fr; /* 1 column */
+            gap: 24px;
+        }
+    
+        .office-section h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .office-message {
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    
+        .office-card {
+            padding: 20px;
+        }
+
+        /* Faq section is here  */
+
+        .faq-section {
+            width: 100%;
+            padding: 0 16px;
+        }
+    
+        .faq-item {
+            width: 100%;
+            padding: 12px 8px;
+        }
+    
+        .faq-section h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .faq-section p {
+            font-size: 16px;
+        }
+    
+        .faq-question {
+            font-size: 15px;
+        }
+    
+        .faq-answer {
+            font-size: 14px;
+        }
+
+        /* download section is here  */
+
+        .download {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .download-container {
+            padding: 48px 24px;
+            height: auto;
+        }
+    
+        .download-desc {
+            margin: 0 0 40px 0;
+            width: 100%;
+        }
+    
+        .download-desc h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .download-desc p {
+            font-size: 16px;
+        }
+    
+        .download-image {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px; 
+            position: relative;
+        }
+
+        .absolute{
+            right: 50px;
+        }
+    
+        .download-image img {
+            width: 290px; 
+            height: 329px;
+            gap: 20px;
+        }
+    
+        
+    
+        .learn-more,
+        .get-started {
+            width: 90%;
+            margin-bottom: 20px;
+            font-size: 14px;
+            padding: 10px 18px;
+        }
+
+        /* footer section is here  */
+
+        footer {
+            padding: 48px 24px;
+          }
+        
+          .footer-grid-container {
+            width: 100%;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+          }
+        
+          .footer-grid-container h3 {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        
+          .footer-grid-container p {
+            font-size: 14px;
+          }
+        
+          .copyright-section {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            text-align: center;
+          }
+        
+          .copyright-section p {
+            font-size: 12px;
+          }
+        
+          .logo {
+            justify-content: center;
+          }
+        
+          .logo h1 {
+            font-size: 18px;
+          }
+        
+          .logo button {
+            width: 28px;
+            height: 28px;
+            font-size: 18px;
+          }
+        
+          .copyright-arrow {
+            height: 40px;
+            width: 40px;
+            padding: 8px;
+          }
+}

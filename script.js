@@ -8,3 +8,24 @@ faqItems.forEach(item => {
     item.classList.toggle('active');
   });
 });
+
+
+// footer section 
+
+const footerArrow = document.getElementById('footer-arrow');
+
+  footerArrow.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+//   hamburger icon 
+
+const menuToggle = document.getElementById('menu-toggle');
+  const featureContainer = document.getElementById('feature-container');
+
+  menuToggle.addEventListener('click', function() {
+    featureContainer.classList.toggle('active');
+  });

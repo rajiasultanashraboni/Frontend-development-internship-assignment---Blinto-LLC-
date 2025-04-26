@@ -60,6 +60,8 @@ body{
     cursor: pointer;
 }
 
+
+
 .button-container{
     display: flex;
     align-items: center;
@@ -68,24 +70,36 @@ body{
 
  .sign-up{
     font-weight: 700;
-    size: 16px;
+    font-size: 16px;
     line-height: 22px;
-    letter-spacing: -0.7%;
     color: #475569;
-    border: #CBD5E1;
+    border: 1px solid #CBD5E1;
     border-radius:1234px ;
     padding: 12px 20px;
+    background-color: transparent;
 }
  .login{
     font-weight: 700;
-    size: 16px;
+    font-size: 16px;
     line-height: 22px;
-    letter-spacing: -0.7%;
     color: #FFFFFF;
-    border: #4F46E5;
+    border:1px solid #4F46E5;
     background-color: #4F46E5;
     border-radius:1234px ;
     padding: 12px 20px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.feature-container.active {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    padding: 10px 0;
 }
 
 
@@ -102,7 +116,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
     
     
@@ -110,6 +124,7 @@ body{
 
 .banner-button{
     display: flex;
+    justify-content: center;
     gap: 8px;
     margin-bottom: 64px;
 }
@@ -156,6 +171,7 @@ body{
     position: relative;
     padding: 0 20px;
 }
+
 
 
 /* company logo section  */
@@ -695,6 +711,184 @@ body{
     align-items: center;
     gap: 8px;
   }
+
+
+  /* downlad section is here  */
+
+  .download-container{
+    background-color: #EEF2FF;
+    padding: 64px 112px;
+    height: 653px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 96px;
+  }
+
+  .download{
+    width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .download-desc{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 500px
+   
+  }
+  .download-desc h1{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size:36px;
+    line-height: 44px;
+    color: #1E293B;
+    margin-bottom: 24px;
+  }
+  .download-desc p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:18px;
+    color: #475569;
+    margin-bottom: 48px;
+  }
+
+  .learn-more{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4F46E5;
+    border: 1px solid #4F46E5;
+    border-radius:1234px ;
+    padding: 12px 20px;
+    background-color: transparent;
+  }
+
+  .get-started{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border:1px solid #4F46E5;
+    background-color: #4F46E5;
+    border-radius:1234px ;
+    padding: 12px 20px;
+    margin-left: 16px;
+  }
+
+  .download-image{
+    
+    display: flex;
+    width: 50%;
+    align-items: start;
+    justify-content: flex-end;
+    
+  }
+
+  .download-image img {
+    width: auto;
+    height: auto;
+  }
+
+  .absolute{
+    position: absolute;
+    top: 0;
+    right: 0 !important;
+  }
+
+  .MockUp{
+    margin-right: 150px;
+    margin-top: 45px;
+   
+  }
+
+
+  /* footer section is here  */
+  footer{
+    background-color: #F8FAFC;
+    padding: 96px 112px;
+  }
+
+  .footer-grid-container{
+    width: 1216px;
+    margin: 0 auto;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom: 42px;
+  }
+
+  .footer-grid-container h3{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size:16px;
+    line-height: 22px;
+    color: #1E293B;
+    margin-bottom: 16px;
+  }
+  .footer-grid-container p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size:16px;
+    color: #475569;
+    margin-bottom: 12px;
+  }
+
+  /* copyright section is here  */
+
+  .copyright-section{
+    width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-section p{
+    font-family:'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size:14px;
+    line-height: 20px;
+    color: #94A3B8;
+    
+  }
+
+  .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.32), #4F46E5);
+    border: 0.5px solid rgba(255, 255, 255, 0.32);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(79, 70, 229, 0.1);
+    cursor: pointer;
+  }
+.logo h1{
+    color: #1E293B;
+    font-size: 20px;
+}
+
+.copyright-arrow{
+    height: 48px;
+    width: 48px;
+    border: 1px solid #CBD5E1;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+    
+
 
   
   
