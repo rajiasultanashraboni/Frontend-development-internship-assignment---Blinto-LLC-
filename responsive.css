@@ -45,11 +45,16 @@
         font-size: 12px;
         padding: 5px 10px;
       }
+
+      .banner-image{
+        padding: 0;
+      }
     
       .screen-image {
-        left: 125px; 
+        left: 200px; 
         top: 0px;
-        transform: scale(0.5); 
+        bottom: 350px;
+        transform: scale(0.7); 
       }
     
       .screen-image img, 
