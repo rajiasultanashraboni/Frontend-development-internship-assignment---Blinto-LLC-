@@ -66,15 +66,17 @@
 
      
         
-        .compnay-logo{
-            width: 90%;
+        .compnay-logo{   
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            justify-items: center;
-            padding: 0px 20px;
-            column-gap: 10px;
-            row-gap: 5px;
+            padding: 0 20px;
+            column-gap: 0;
+            row-gap: 0;
             
+        }
+
+        .compnay-logo img{
+            width: 100%;
         }
 
         /* feature section is here  */
